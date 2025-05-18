@@ -1,12 +1,45 @@
-# React + Vite
+# Live Streaming Web Application 🎥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Live Streaming Web Application** built using **Node.js**, **Express**, **Socket.io**, and **FFmpeg**. The project enables real-time broadcasting of video streams through the web.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📡 Live video stream using FFmpeg and Node.js
+- 💬 Real-time communication using Socket.IO
+- ⚙️ Stream processing via FFmpeg CLI
+- 🖥️ Clean and responsive UI for viewers
+- 🔐 Secure streaming key support (optional)
+- 🔄 Automatic reconnect for unstable connections
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **Real-time Engine**: Socket.IO
+- **Video Processing**: FFmpeg
+
+---
+
+## 📂 Project Structure
+live-streaming-app/
+│
+├── public/ # Frontend files
+│ ├── index.html
+│ └── script.js
+│
+├── server.js # Main backend server
+├── stream.js # Handles FFmpeg input stream
+├── package.json
+└── README.md
+
+📌 To Do
+ Add user authentication for secure streaming
+
+ Allow multiple streams from different users
+
+ Record and save streams
+
+ Enable HLS or DASH streaming
+
