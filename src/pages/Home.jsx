@@ -13,7 +13,7 @@ function Home() {
     <div className="home">
       <input
         type="text"
-        placeholder="enter your roomid..."
+        placeholder="Enter your Name..."
         onChange={(e) => setInput(e.target.value)}
         value={input}
       />
